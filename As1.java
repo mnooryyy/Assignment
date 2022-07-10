@@ -16,7 +16,7 @@ public class As1 {
 		   driver.manage().window().maximize();
 		   driver.get("https://vtshr.com/");
 		  String t =driver.getTitle();
-		 // Assert.assertEquals(t, "VITS HR");
+		 Assert.assertTrue(true, t);
 		  Assert.assertEquals(t, "VTS Human Resources Consulting | HR Recruiting, Growth, Development and Training.");
 		System.out.println(t);
 		

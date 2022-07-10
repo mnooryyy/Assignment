@@ -25,13 +25,16 @@ public class Ass5 {
 		
 	  
 	  driver.findElement(By.linkText("Register")).click();
+	  
+	  driver.findElement(By.xpath("//input[@name='companyName']")).sendKeys("test");
+	  driver.findElement(By.xpath("//input[@name='phoneNo']")).sendKeys("111111111");
   }
   
 
   @AfterMethod
   public void afterMethod()
   {
-	  driver.close();
+	 // driver.close();
   }
 
 }

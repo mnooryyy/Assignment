@@ -5,7 +5,7 @@
 <parameter name="browser" value="chrome"></parameter>
 <parameter name="url" value="https://dan.com/buy-domain/flpcart.com?redirected=true"></parameter>
 <classes>
-<class name="practice.Envirmentt"></class>
+<class name="practice.Ass3"></class>
 </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -30,7 +30,7 @@ public class Ass4 {
   }
 		  driver.get(url);
 		  driver.findElement(By.xpath("//input[@id='gh-ac']")).sendKeys("Apple watches");
-	WebElement s1	= driver.findElement(By.xpath("//select[@class='gh-sb ']"));
+	WebElement s1= driver.findElement(By.xpath("//select[@class='gh-sb ']"));
 	  Select select=new Select(s1);
 	  select.selectByVisibleText("Cell Phones & Accessories");
 	  driver.findElement(By.xpath("//input[@value='Search']")).click();

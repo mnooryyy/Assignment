@@ -10,7 +10,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class Envirmentt {
+public class Ass3 {
 	WebDriver driver;
 @Parameters({"browser","url"})
   @Test
